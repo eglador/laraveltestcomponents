@@ -1,6 +1,6 @@
 {
     "name": "kenangundogan/laraveltestcomponents",
-    "description": "Your Package Description",
+    "description": "laravel Test Components",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,9 +9,9 @@
             "email": "kenangundogann@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "php": "^7.4",
+        "php": "^8.2.3",
         "laravel/framework": "^8.0"
     },
     "autoload": {
@@ -35,5 +35,6 @@
         "post-autoload-dump": [
             "@php artisan package:discover --ansi"
         ]
-    }
+    },
+    "version": "1.0.0"
 }

@@ -23,10 +23,8 @@ class LaravelTestComponentsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Bileşenlerinizi tanıtmak ve Blade şablonlarını kullanılabilir hale getirmek için kullanabilirsiniz.
         $this->loadViewsFrom(__DIR__.'/../resources/views/components', 'laraveltestcomponents');
 
-        // Bileşenlerinizi başka projelere dağıtmak için kullanabilirsiniz.
         $this->publishes([
             __DIR__.'/../resources/views/components' => resource_path('views/vendor/laraveltestcomponents'),
         ], 'laraveltestcomponents-views');
