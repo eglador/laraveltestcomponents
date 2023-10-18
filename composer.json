@@ -9,7 +9,7 @@
             "email": "kenangundogann@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^8.2.3",
