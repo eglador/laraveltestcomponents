@@ -9,11 +9,12 @@
             "email": "kenangundogann@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "php": "^8.2.3",
-        "laravel/framework": "^8.0"
+        "laravel/framework": "^8.0|^9.0|^10.0|^10.10",
+        "kenangundogan/laraveltestcomponents": "1.0.0"
     },
     "autoload": {
         "psr-4": {
@@ -34,6 +35,5 @@
         "post-autoload-dump": [
             "@php artisan package:discover --ansi"
         ]
-    },
-    "version": "1.0.0"
+    }
 }
