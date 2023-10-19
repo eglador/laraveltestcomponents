@@ -13,7 +13,6 @@ class LaravelTestComponentsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
     }
 
     /**
